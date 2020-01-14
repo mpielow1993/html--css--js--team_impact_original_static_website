@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Team Impact MMA Ennis | Instructors</title>
+<meta charset="utf-08">
+<link rel="stylesheet" href="TeamImpactXSS.css">
+<link rel="icon" href="TIFavicon2.jpg" type="image/jpg" sizes="any">
+<script src="TeamImpactScripts.js" type="text/javascript"></script>
+</head>
+<style>
+
+article {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+article img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	border-radius: 0.5em;
+}
+
+article h3 {
+	font-size: 125%;
+}
+
+article .instructor_titles {
+	font-family: Trebuchet MS, Trebuchet MS, sans-serif;
+	font-size: 75%;
+	font-style: italic;
+	color: #CD7F32;
+}
+
+.INS_float_left {
+	float: left;
+}
+
+.INS_float_right {
+	float: right;
+}
+
+.INS_margin_left {
+	margin-left: 35%;
+}
+
+.INS_margin_right {
+	margin-right: 35%;
+}
+
+</style>
+<body>
+	<nav>
+		<ul>
+			<li><a href="Home.html">Home</a></li>
+			<li><a href="AboutUs.html">About Us</a></li>
+			<li><a href="Programmes.html">Programmes</a></li>
+			<li><a href="Timetable.html">Timetable</a></li>
+			<li><a href="Facilities.html">Facilities</a></li>
+			<li><a href="Instructors.html">Instructors</a></li>
+			<li><a href="Contact.html">Contact</a></li>
+			<li class="dropdown">Further Info
+				<ul class="dropdown-content">
+					<div class="container">
+						<li><a href="FAQs.html">FAQ's</a></li><br>
+					</div>	
+					<div class="container">
+						<li><a href="GymRules.html">Gym Rules</a></li>
+					</div>
+					<div class="container">
+						<li><a href="Memberships.html">Memberships</a></li>
+					</div>	
+					<div class="container">
+						<li><a href="Testimonials.html">Testimonials</a></li><br>
+					</div>	
+					<div class="container">
+						<li><a href="UsefulLinks.html">Useful Links</a></li>
+					</div>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<main>
+		<section>
+			<h1 onmouseover="RevealInstructorQuote()" onmouseout="HideInstructorQuote()">Instructors</h1>
+				<p id="instructor_quote" style="text-align: center;"></p>
+		</section>
+		<article>
+			<a id="Rich_Jones">
+			<img src="Rich_Jones.jpg" alt="Rich Jones" class="INS_float_left">
+			</a>
+			<h2 class="INS_margin_left">Rich Jones</h2>
+				<h3 class="INS_margin_left">Head Instructor</h3>
+					<p class="INS_margin_left">Rich is the founder and owner of Team Impact and currently holds a third degree black belt in Brazilian Jiu-Jitsu under Carlson Gracie Jr. 
+					He has coached numerous athletes at an amateur and professional level in MMA, BJJ, Muay Thai and Boxing, including many of our current 
+					instructors and active competitors. With over thirty years spent training and competing in various martial arts all over the world, he 
+					possesses an unparalleled amount of knowledge and experience that he passionately shares with his students on a daily basis.</p>
+				<br clear="left">
+		</article>
+		<article>
+			<a id="Ciaran_Dempsey">
+			<img src="Ciaran_Dempsey.jpg" alt="Ciaran Dempsey" class="INS_float_right">
+			</a>
+			<h2 class="INS_margin_right">Ciaran Dempsey</h2>
+				<h3 class="INS_margin_right">Brazilian Jiu-Jitsu Instructor</h3>
+					<p class="INS_margin_right">Ciaran has been training in Brazilian Jiu-Jitsu under Rich since the beginning of Team Impact in 2006. He has enjoyed a decorated 
+					competitive career spanning several years. Among his numerous achievements in BJJ, he won the Brown Belt <a href="https://ibjjf.com/" target="_blank">IBBJF</a> 
+					Europeans at Roosterweight in both Gi and No-Gi in 2013, 2014 and 2015 and the Brown Belt IBJJF World Championships at Roosterweight in Gi in 2014.  After over 10 years 
+					of dedicated training and competitive success at a National and European Level, Ciaran received his BJJ Black Belt in 2017 under Carlson 
+					Gracie Jr. during a visit to Ireland. Ciaran has now retired from competition and has dedicated himself to coaching, and teaches many of the 
+					adult and kids BJJ classes at Team Impact.</p>
+				<br clear="right">
+		</article>
+		<article>
+			<a id="Aaron_Jennings">
+			<img src="Aaron_Jennings.jpg" alt="Aaron Jennings" class="INS_float_left">
+			</a>
+			<h2 class="INS_margin_left">Aaron Jennings</h2>
+				<h3 class="INS_margin_left">Muay Thai &amp; Mixed Martial Arts Instructor</h3>
+					<p class="INS_margin_left">Aaron has been training in Muay Thai for over 15 years. He is an active and highly decorated competitor with a current professional 
+					kickboxing record of 61-4 and has fought in many top professional kickboxing promotions all over the world such as 
+					<a href="https://www.glorykickboxing.com/" target="_blank">Glory</a>, 
+					<a href="http://www.thaifight.com/" target="_blank">Thai Fight</a> and 
+					<a href="https://www.maxmuaythai.com/" target="_blank">Max Muay Thai</a>. In 2011, Aaron 
+					decided to venture into Mixed Martial Arts. He is currently signed with top promotion 
+					<a href="https://www.bravefights.com/" target="_blank">Brave FC</a>, holding an undefeated professional record of 3-0.</p>
+				<br clear="left">
+		</article>
+		<article>
+			<a id="Michael_Prendergast">
+			<img src="Michael_Prendergast.jpg" alt="Michael Prendergast" class="INS_float_right">
+			</a>
+			<h2 class="INS_margin_right">Michael Prendergast</h2>
+				<h3 class="INS_margin_right">Mixed Martial Arts &amp; Brazilian Jiu-Jitsu Instructor</h3>
+					<p class="INS_margin_right">Michael started his martial arts journey with Ciaran under Rich back in 2006. Upon discovering a hidden talent for the art, Michael began 
+					competing in (at that time, very few) Brazilian Jiu-Jitsu tournaments in the UK and the rest of Europe. Spurred on by his early success and 
+					by coach Rich, Michael began training and competing in Mixed Martial Arts. Continued success on the both the national and European amateur 
+					circuit led Michael to turn professional in 2014. He holds a current professional record of 7-1 is currently signed with top European 
+					promotion <a href="https://cagewarriors.com/" target="_blank">Cage Warriors</a>. Michael was awarded his BJJ Brown Belt in 2016. He is still an active competitor 
+					in the Brazilian Jiu-Jitsu scene and has won multiple medals in both Gi and No-Gi Jiu-Jitsu at a National, European and World level at blue, purple and brown belt.</p>
+				<br clear="right">
+		</article>
+		<article>
+			<a id="Carrie_Canning">
+			<img src="Carrie_Canning.jpg" alt="Carrie Canning" class="INS_float_left">
+			</a>
+			<h2 class="INS_margin_left">Carrie Canning</h2>
+				<h3 class="INS_margin_left">Women&apos;s Instructor</span></h3>
+					<p class="INS_margin_left">Carrie&apos;s martial arts journey began when she started training in Shotokan Karate when she was seven years old. At age 20 she received her 
+					black belt in this art. Around the same time, she began training in Brazilian Jiu-Jitsu under Rich and currently holds a purple belt in BJJ.
+					Shortly after beginning her BJJ journey, Carrie started training in MMA. Carrie soon began competing in amateur MMA to great success, 
+					culminating in her taking Gold 2 years in a row in the Women&apos;s 60kg category at the World <a href="https://www.immaf.org/" target="_blank">IMMAF</a> 
+					(International Mixed Martial Arts Federation) Championships in 2010 &amp; 2011. Nowadays, Carrie has since retired from competing, and has devoted herself to teaching Women&apos;s MMA and BJJ for 
+					self-defence purposes here at Team Impact.</p>
+				<br clear="left">
+		</article>
+		<article>
+			<a id="Aaron_Murray">
+			<img src="Aaron_Murray.jpg" alt="Aaron Murray" class="INS_float_right">
+			</a>
+			<h2 class="INS_margin_right">Aaron Murray</h2>
+				<h3 class="INS_margin_right">Boxing Instructor</h3>
+					<p class="INS_margin_right">Aaron has been boxing for over 20 years and brings a wealth of experience in the &lsquo;sweet science&rsquo; to Team Impact. In his amateur career, "The Worry"
+					amassed a record of 130-17, winning a total of 8 All-Ireland titles, 3 European Titles and 1 World Title over the 76kg, 78kg, 80kg and 82kg weight 
+					categories. He also boxed for Team Ireland in the 2012 Olympics, taking silver in the 78kg division. He turned pro in 2013, and has currently amassed a record of 9-1. He is now 
+					signed with top UK promotion <a href="http://www.matchroomboxing.com/" target="_blank">Matchroom Boxing</a>, splitting his time between Ireland and the UK 
+					teaching and training.</p>
+				<br clear="right">
+		</article>
+		<article>
+			<a id="Pawel_Grubinski">
+			<img src="Pawel_Grubinski.jpg" alt="Pawel Grubinski" class="INS_float_left">
+			</a>
+			<h2 class="INS_margin_left">Pawel Grubinski</h2>
+				<h3 class="INS_margin_left">Wrestling Instructor</h3>
+					<p class="INS_margin_left">Pawel has been wrestling since he was five years old and had a highly decorated career in Freestyle and Greco-Roman wrestling spanning 15 
+					years. He was selected for the Polish Olympic team in Freestyle Wrestling in the 2008 and 2012 Olympic Games, taking silver in the Men&apos;s 69kg 
+					category. He retired from competition shortly after his second appearance in the games, moving to Ireland the year after. It was at this time 
+					that he became acquainted with Rich. The two quickly became good friends, so much so that Pawel decided to relocate to Ennis and become the 
+					wrestling coach at Team Impact, and has been here ever since.</p>
+				<br clear="left">
+		</article>
+		<article>
+			<a id="Sean_Reilly">
+			<img src="Sean_Reilly.jpg" alt="Sean Reilly" class="INS_float_right">
+			</a>
+			<h2 class="INS_margin_right">Sean Reilly</h2>
+				<h3 class="INS_margin_right">Head Physio</h3>
+					<p class="INS_margin_right">Sean acquired a Master&apos;s Degree in Physiotherapy from University College Cork six years ago and has been a practicing physiotherapist 
+					since that time. Prior to joining Team Impact, he worked his way up to becoming the head physio for Eircom League side Bohemians, and brings 
+					a wealth of knowledge and experience to keep all of our members in peak physical condition.</p> 
+				<br clear="right">
+		</article>
+	</main>
+</body>
+</html>
